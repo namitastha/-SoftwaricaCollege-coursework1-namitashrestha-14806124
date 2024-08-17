@@ -1,0 +1,66 @@
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d16b6b;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #d16b6b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #f7b7b7;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start; /* Aligns the logo to the left */
+    align-items: center; /* Vertically centers the image within the div */
+}
+
+.logo img {
+    width: 130px; /* Adjust the width as needed */
+    height: 60px; /* Maintains aspect ratio */
+}
+
+.social-icons img {
+    width: 30px;  /* Adjust the width as needed */
+    height: auto; /* Maintains aspect ratio */
+    margin-right: 10px; /* Optional: Adds space between the icons */
+}
+

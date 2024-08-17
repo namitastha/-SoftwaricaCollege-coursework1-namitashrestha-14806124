@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(255, 248, 240, 0.8), rgba(255, 248, 240, 0.8)),  
+                url('https://source.unsplash.com/featured/?dessert') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.login-container img {
+    width: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Makes the image round /
+    border: 2px solid #d16b6b; / Optional: Adds a border around the image */
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #d16b6b;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.login-container button {
+    background: linear-gradient(45deg, #f7b7b7, #d16b6b);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.login-container button:hover {
+    background: linear-gradient(45deg, #d16b6b, #f7b7b7);
+}
+
+.login-container a {
+    display: block;
+    margin-top: 15px;
+    color: #d16b6b;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}

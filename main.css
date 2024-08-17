@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Custom styles for the header */
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the hero section */
+section.hero {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), 
+                url('path-to-hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    color: #d16b6b;
+}
+
+/* Additional custom styles for pie images */
+section.pies img {
+    transition: transform 0.3s ease-in-out;
+}
+
+section.pies img:hover {
+    transform: scale(1.1);
+}
+
+.locations .location {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.locations .location:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

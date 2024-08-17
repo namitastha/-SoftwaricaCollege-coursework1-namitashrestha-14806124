@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    color: #d16b6b;
+}
+
+.about-us {
+    background-color: #fff5f0;
+    padding: 50px 0;
+}
+
+.mission {
+    background-color: #ffeae0;
+    padding: 50px 0;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+}
+
+.social-icons img {
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+.social-icons img:hover {
+    filter: none;
+}

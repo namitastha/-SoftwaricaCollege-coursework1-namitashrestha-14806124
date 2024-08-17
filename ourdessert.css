@@ -1,0 +1,29 @@
+/* desserts.css */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.menu-item {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #d16b6b;
+}
+
+h3 {
+    color: #d16b6b;
+}
+
+.text-center {
+    text-align: center;
+}
